@@ -27,7 +27,7 @@
 # Maintained by irk.fm team. Contact Jury Gerasimov (jury@softshape.com)
 #
 # File version date: Feburary 10, 2012
-#       Creation:
+# Creation:
 #       - Cloned from http://code.google.com/p/mobileesp/source/browse/Java/UAgentInfo.java
 #                 and http://code.google.com/p/mobileesp/source/browse/PHP/mdetect.php
 #
@@ -72,31 +72,31 @@ class UAgentInfo(object):
     deviceIphone = "iphone"
     deviceIpod = "ipod"
     deviceIpad = "ipad"
-    deviceMacPpc = "macintosh"              # Used for disambiguation
+    deviceMacPpc = "macintosh"  # Used for disambiguation
 
     deviceAndroid = "android"
     deviceGoogleTV = "googletv"
-    deviceHtcFlyer = "htc_flyer"            # HTC Flyer
+    deviceHtcFlyer = "htc_flyer"  # HTC Flyer
 
     deviceWinPhone7 = "windows phone os 7"
     deviceWinPhone8 = "windows phone 8"
     deviceWinMob = "windows ce"
     deviceWindows = "windows"
     deviceIeMob = "iemobile"
-    devicePpc = "ppc"                       # Stands for PocketPC
-    enginePie = "wm5 pie"                   # An old Windows Mobile
+    devicePpc = "ppc"  # Stands for PocketPC
+    enginePie = "wm5 pie"  # An old Windows Mobile
 
     deviceBB = "blackberry"
-    deviceBB10 = "bb10"                     # For the new BB 10 OS
-    vndRIM = "vnd.rim"                      # Detectable when BB devices emulate IE or Firefox
-    deviceBBStorm = "blackberry95"          # Storm 1 and 2
-    deviceBBBold = "blackberry97"           # Bold 97x0 (non-touch)
-    deviceBBBoldTouch = "blackberry 99"     # Bold 99x0 (touchscreen)
-    deviceBBTour = "blackberry96"           # Tour
-    deviceBBCurve = "blackberry89"          # Curve 2
-    deviceBBCurveTouch = "blackberry 938"   # Curve Touch 9380
-    deviceBBTorch = "blackberry 98"         # Torch
-    deviceBBPlaybook = "playbook"           # PlayBook tablet
+    deviceBB10 = "bb10"  # For the new BB 10 OS
+    vndRIM = "vnd.rim"  # Detectable when BB devices emulate IE or Firefox
+    deviceBBStorm = "blackberry95"  # Storm 1 and 2
+    deviceBBBold = "blackberry97"  # Bold 97x0 (non-touch)
+    deviceBBBoldTouch = "blackberry 99"  # Bold 99x0 (touchscreen)
+    deviceBBTour = "blackberry96"  # Tour
+    deviceBBCurve = "blackberry89"  # Curve 2
+    deviceBBCurveTouch = "blackberry 938"  # Curve Touch 9380
+    deviceBBTorch = "blackberry 98"  # Torch
+    deviceBBPlaybook = "playbook"  # PlayBook tablet
 
     deviceSymbian = "symbian"
     deviceS60 = "series60"
@@ -105,25 +105,25 @@ class UAgentInfo(object):
     deviceS90 = "series90"
 
     devicePalm = "palm"
-    deviceWebOS = "webos"           # For Palm's line of WebOS devices
-    deviceWebOShp = "hpwos"         # For HP's line of WebOS devices
-    engineBlazer = "blazer"         # Old Palm
-    engineXiino = "xiino"           # Another old Palm
+    deviceWebOS = "webos"  # For Palm's line of WebOS devices
+    deviceWebOShp = "hpwos"  # For HP's line of WebOS devices
+    engineBlazer = "blazer"  # Old Palm
+    engineXiino = "xiino"  # Another old Palm
 
-    deviceNuvifone = "nuvifone"     # Garmin Nuvifone
-    deviceBada = "bada"             # Samsung's Bada OS
-    deviceTizen = "tizen"           # Tizen OS
-    deviceMeego = "meego"           # Meego OS
+    deviceNuvifone = "nuvifone"  # Garmin Nuvifone
+    deviceBada = "bada"  # Samsung's Bada OS
+    deviceTizen = "tizen"  # Tizen OS
+    deviceMeego = "meego"  # Meego OS
 
-    deviceKindle = "kindle"         # Amazon Kindle, eInk one
-    engineSilk = "silk"             # Amazon's accelerated Silk browser for Kindle Fire
+    deviceKindle = "kindle"  # Amazon Kindle, eInk one
+    engineSilk = "silk"  # Amazon's accelerated Silk browser for Kindle Fire
 
     # Initialize variables for mobile-specific content.
     vndwap = "vnd.wap"
     wml = "wml"
 
     # Initialize variables for other random devices and mobile browsers.
-    deviceTablet = "tablet"         # Generic term for slate and tablet devices
+    deviceTablet = "tablet"  # Generic term for slate and tablet devices
     deviceBrew = "brew"
     deviceDanger = "danger"
     deviceHiptop = "hiptop"
@@ -135,25 +135,25 @@ class UAgentInfo(object):
     deviceXbox = "xbox"
     deviceArchos = "archos"
 
-    engineOpera = "opera"           # Popular browser
-    engineNetfront = "netfront"     # Common embedded OS browser
+    engineOpera = "opera"  # Popular browser
+    engineNetfront = "netfront"  # Common embedded OS browser
     engineUpBrowser = "up.browser"  # common on some phones
-    engineOpenWeb = "openweb"       # Transcoding by OpenWave server
-    deviceMidp = "midp"             # a mobile Java technology
+    engineOpenWeb = "openweb"  # Transcoding by OpenWave server
+    deviceMidp = "midp"  # a mobile Java technology
     uplink = "up.link"
-    engineTelecaQ = "teleca q"      # a modern feature phone browser
-    engineObigo = "obigo"           # W 10 is a modern feature phone browser
+    engineTelecaQ = "teleca q"  # a modern feature phone browser
+    engineObigo = "obigo"  # W 10 is a modern feature phone browser
 
-    devicePda = "pda"               # some devices report themselves as PDAs
-    mini = "mini"                   # Some mobile browsers put "mini" in their names.
-    mobile = "mobile"               # Some mobile browsers put "mobile" in their user agent strings.
-    mobi = "mobi"                   # Some mobile browsers put "mobi" in their user agent strings.
+    devicePda = "pda"  # some devices report themselves as PDAs
+    mini = "mini"  # Some mobile browsers put "mini" in their names.
+    mobile = "mobile"  # Some mobile browsers put "mobile" in their user agent strings.
+    mobi = "mobi"  # Some mobile browsers put "mobi" in their user agent strings.
 
     # Use Maemo, Tablet, and Linux to test for Nokia"s Internet Tablets.
     maemo = "maemo"
     linux = "linux"
-    qtembedded = "qt embedded"      # for Sony Mylo
-    mylocom2 = "com2"               # for Sony Mylo also
+    qtembedded = "qt embedded"  # for Sony Mylo
+    mylocom2 = "com2"  # for Sony Mylo also
 
     # In some UserAgents, the only clue is the manufacturer.
     manuSonyEricsson = "sonyericsson"
@@ -168,9 +168,9 @@ class UAgentInfo(object):
     svcVodafone = "vodafone"
 
     # Disambiguation strings.
-    disUpdate = "update"            # pda vs. update
+    disUpdate = "update"  # pda vs. update
 
-    def __init__(self, userAgent, httpAccept):
+    def __init__(self, user_agent, http_accept):
         """Initialize the __userAgent and __httpAccept variables
 
         Keyword arguments:
@@ -179,8 +179,8 @@ class UAgentInfo(object):
         """
 
         #  User-Agent and Accept HTTP request headers
-        self.__userAgent = userAgent.lower() if userAgent else ""
-        self.__httpAccept = httpAccept.lower() if httpAccept else ""
+        self.__userAgent = user_agent.lower() if user_agent else ""
+        self.__httpAccept = http_accept.lower() if http_accept else ""
 
         #  Let's store values for quickly accessing the same info multiple times.
         self.__isIphone = False
@@ -191,73 +191,71 @@ class UAgentInfo(object):
         self.__isTierGenericMobile = False
 
         #  Intialize key stored values.
-        self.initDeviceScan()
+        self.init_device_scan()
 
-    def getUserAgent(self):
+    def get_user_agent(self):
         """Return the lower case HTTP_USER_AGENT"""
         return self.__userAgent
 
-    def getHttpAccept(self):
+    def get_http_accept(self):
         """Return the lower case HTTP_ACCEPT"""
         return self.__httpAccept
 
-    def getIsIphone(self):
+    def get_is_iphone(self):
         """Return whether the device is an Iphone or iPod Touch"""
         return self.__isIphone
 
-    def getIsTierTablet(self):
+    def get_is_tier_tablet(self):
         """Return whether the device is in the Tablet Tier."""
         return self.__isTierTablet
 
-    def getIsTierIphone(self):
+    def get_is_tier_iphone(self):
         """Return whether the device is in the Iphone Tier."""
         return self.__isTierIphone
 
-    def getIsTierRichCss(self):
+    def get_is_tier_rich_css(self):
         """Return whether the device is in the 'Rich CSS' tier of mobile devices."""
         return self.__isTierRichCss
 
-    def getIsTierGenericMobile(self):
+    def get_is_tier_generic_mobile(self):
         """Return whether the device is a generic, less-capable mobile device."""
         return self.__isTierGenericMobile
 
-
-    def initDeviceScan(self):
+    def init_device_scan(self):
         """Initialize Key Stored Values."""
-        self.__isIphone = self.detectIphoneOrIpod()
-        self.__isAndroidPhone = self.detectAndroidPhone()
-        self.__isTierTablet = self.detectTierTablet()
-        self.__isTierIphone = self.detectTierIphone()
-        self.__isTierRichCss = self.detectTierRichCss()
-        self.__isTierGenericMobile = self.detectTierOtherPhones()
+        self.__isIphone = self.detect_iphone_or_ipod()
+        self.__isAndroidPhone = self.detect_android_phone()
+        self.__isTierTablet = self.detect_tier_tablet()
+        self.__isTierIphone = self.detect_tier_iphone()
+        self.__isTierRichCss = self.detect_tier_rich_css()
+        self.__isTierGenericMobile = self.detect_tier_other_phones()
 
-    def detectIphone(self):
+    def detect_iphone(self):
         """Return detection of an iPhone
 
         Detects if the current device is an iPhone.
         """
         # The iPad and iPod touch say they're an iPhone! So let's disambiguate.
         return UAgentInfo.deviceIphone in self.__userAgent \
-               and not self.detectIpad() \
-               and not self.detectIpod()
+               and not self.detect_ipad() \
+               and not self.detect_ipod()
 
-    def detectIpod(self):
+    def detect_ipod(self):
         """Return detection of an iPod Touch
 
         Detects if the current device is an iPod Touch.
         """
         return UAgentInfo.deviceIpod in self.__userAgent
 
-
-    def detectIpad(self):
+    def detect_ipad(self):
         """Return detection of an iPad
 
         Detects if the current device is an iPad tablet.
         """
         return UAgentInfo.deviceIpad in self.__userAgent \
-               and self.detectWebkit()
+               and self.detect_webkit()
 
-    def detectIphoneOrIpod(self):
+    def detect_iphone_or_ipod(self):
         """Return detection of an iPhone or iPod Touch
 
         Detects if the current device is an iPhone or iPod Touch.
@@ -266,28 +264,27 @@ class UAgentInfo(object):
         return UAgentInfo.deviceIphone in self.__userAgent \
                or UAgentInfo.deviceIpod in self.__userAgent
 
-    def detectIos(self):
+    def detect_ios(self):
         """Return detection of an Apple iOS device
 
         Detects *any* iOS device: iPhone, iPod Touch, iPad.
         """
-        return self.detectIphoneOrIpod() \
-               or self.detectIpad()
+        return self.detect_iphone_or_ipod() \
+               or self.detect_ipad()
 
-    def detectAndroid(self):
+    def detect_android(self):
         """Return detection of an Android device
 
         Detects *any* Android OS-based device: phone, tablet, and multi-media player.
         Also detects Google TV.
         """
         if UAgentInfo.deviceAndroid in self.__userAgent \
-                or self.detectGoogleTV():
+                or self.detect_google_tv():
             return True
         # Special check for the HTC Flyer 7" tablet. It should report here.
         return UAgentInfo.deviceHtcFlyer in self.__userAgent
 
-
-    def detectAndroidPhone(self):
+    def detect_android_phone(self):
         """Return  detection of an Android phone
 
         Detects if the current device is a (small-ish) Android OS-based device
@@ -295,27 +292,27 @@ class UAgentInfo(object):
         Google says these devices will have 'Android' AND 'mobile' in user agent.
         Ignores tablets (Honeycomb and later).
         """
-        if self.detectAndroid() \
+        if self.detect_android() \
                 and UAgentInfo.mobile in self.__userAgent:
             return True
         # Special check for Android phones with Opera Mobile. They should report here.
-        if self.detectOperaAndroidPhone():
+        if self.detect_opera_android_phone():
             return True
         # Special check for the HTC Flyer 7" tablet. It should report here.
         return UAgentInfo.deviceHtcFlyer in self.__userAgent
 
-    def detectAndroidTablet(self):
+    def detect_android_tablet(self):
         """Return detection of an Android tablet
 
         Detects if the current device is a (self-reported) Android tablet.
         Google says these devices will have 'Android' and NOT 'mobile' in their user agent.
         """
         # First, let's make sure we're on an Android device.
-        if not self.detectAndroid():
+        if not self.detect_android():
             return False
 
         # Special check for Opera Android Phones. They should NOT report here.
-        if self.detectOperaMobile():
+        if self.detect_opera_mobile():
             return False
         # Special check for the HTC Flyer 7" tablet. It should NOT report here.
         if UAgentInfo.deviceHtcFlyer in self.__userAgent:
@@ -324,42 +321,39 @@ class UAgentInfo(object):
         # Otherwise, if it's Android and does NOT have 'mobile' in it, Google says it's a tablet.
         return UAgentInfo.mobile not in self.__userAgent
 
-
-    def detectAndroidWebKit(self):
+    def detect_android_webkit(self):
         """Return detection of an Android WebKit browser
 
         Detects if the current device is an Android OS-based device and
         the browser is based on WebKit.
         """
-        return self.detectAndroid() \
-               and self.detectWebkit()
+        return self.detect_android() \
+               and self.detect_webkit()
 
-    def detectGoogleTV(self):
+    def detect_google_tv(self):
         """Return detection of GoogleTV
 
         Detects if the current device is a GoogleTV.
         """
         return UAgentInfo.deviceGoogleTV in self.__userAgent
 
-
-    def detectWebkit(self):
+    def detect_webkit(self):
         """Return detection of a WebKit browser
 
         Detects if the current browser is based on WebKit.
         """
         return UAgentInfo.engineWebKit in self.__userAgent
 
-
-    def detectWindowsPhone(self):
+    def detect_windows_phone(self):
         """Return detection of EITHER Windows Phone 7.x OR 8 device.
 
         Detects if the current browser is EITHER a
         Windows Phone 7.x or 8 device.
         """
-        return self.detectWindowsPhone7() \
-               or self.detectWindowsPhone8()
+        return self.detect_windows_phone7() \
+               or self.detect_windows_phone8()
 
-    def detectWindowsPhone7(self):
+    def detect_windows_phone7(self):
         """Return detection of Windows Phone 7
 
         Detects if the current browser is a
@@ -367,7 +361,7 @@ class UAgentInfo(object):
         """
         return UAgentInfo.deviceWinPhone7 in self.__userAgent
 
-    def detectWindowsPhone8(self):
+    def detect_windows_phone8(self):
         """Return detection of Windows Phone 8
 
         Detects if the current browser is a
@@ -375,7 +369,7 @@ class UAgentInfo(object):
         """
         return UAgentInfo.deviceWinPhone8 in self.__userAgent
 
-    def detectWindowsMobile(self):
+    def detect_windows_mobile(self):
         """Return detection of Windows Mobile
 
         Detects if the current browser is a Windows Mobile device.
@@ -383,7 +377,7 @@ class UAgentInfo(object):
         Focuses on Windows Mobile 6.xx and earlier.
         """
         # Exclude new Windows Phone 7.x and 8.
-        if self.detectWindowsPhone():
+        if self.detect_windows_phone():
             return False
         # Most devices use 'Windows CE', but some report 'iemobile'
         #   and some older ones report as 'PIE' for Pocket IE.
@@ -396,7 +390,7 @@ class UAgentInfo(object):
         if UAgentInfo.manuHtc in self.__userAgent \
                 and UAgentInfo.deviceWindows in self.__userAgent:
             return True
-        if self.detectWapWml() \
+        if self.detect_wap_wml() \
                 and UAgentInfo.deviceWindows in self.__userAgent:
             return True
 
@@ -404,8 +398,7 @@ class UAgentInfo(object):
         return UAgentInfo.devicePpc in self.__userAgent \
                and UAgentInfo.deviceMacPpc not in self.__userAgent
 
-
-    def detectBlackBerry(self):
+    def detect_blackberry(self):
         """Return detection of Blackberry
 
         Detects if the current browser is any BlackBerry.
@@ -414,7 +407,7 @@ class UAgentInfo(object):
         return UAgentInfo.deviceBB in self.__userAgent \
                or UAgentInfo.vndRIM in self.__httpAccept
 
-    def detectBlackBerry10Phone(self):
+    def detect_blackberry_10_phone(self):
         """Return detection of a Blackberry 10 OS phone.
 
         Detects if the current browser is a BlackBerry 10 OS phone.
@@ -422,7 +415,7 @@ class UAgentInfo(object):
         """
         return UAgentInfo.deviceBB10 in self.__userAgent
 
-    def detectBlackBerryTablet(self):
+    def detect_blackberry_tablet(self):
         """Return detection of a Blackberry Tablet
 
         Detects if the current browser is on a BlackBerry tablet device.
@@ -430,7 +423,7 @@ class UAgentInfo(object):
         """
         return UAgentInfo.deviceBBPlaybook in self.__userAgent
 
-    def detectBlackBerryWebKit(self):
+    def detect_blackberry_webkit(self):
         """Return detection of a Blackberry device with WebKit browser
 
         Detects if the current browser is a BlackBerry device AND uses a
@@ -438,11 +431,10 @@ class UAgentInfo(object):
         Examples: Torch. Includes the Playbook.
         """
 
-        return self.detectBlackBerry() \
-               and self.detectWebkit()
+        return self.detect_blackberry() \
+               and self.detect_webkit()
 
-
-    def detectBlackBerryTouch(self):
+    def detect_blackberry_touch(self):
         """Return detection of a Blackberry touchscreen device
 
         Detects if the current browser is a BlackBerry Touch
@@ -453,7 +445,7 @@ class UAgentInfo(object):
                or UAgentInfo.deviceBBBoldTouch in self.__userAgent \
                or UAgentInfo.deviceBBCurveTouch in self.__userAgent
 
-    def detectBlackBerryHigh(self):
+    def detect_blackberry_high(self):
         """Return detection of a Blackberry device with a better browser
 
         Detects if the current browser is a BlackBerry device AND
@@ -462,42 +454,41 @@ class UAgentInfo(object):
         Excludes the new BlackBerry OS 6 and 7 browser!!
         """
         # Disambiguate for BlackBerry OS 6 or 7 (WebKit) browser
-        if self.detectBlackBerryWebKit():
+        if self.detect_blackberry_webkit():
             return False
-        if not self.detectBlackBerry():
+        if not self.detect_blackberry():
             return False
 
-        return self.detectBlackBerryTouch() \
+        return self.detect_blackberry_touch() \
                or UAgentInfo.deviceBBBold in self.__userAgent \
                or UAgentInfo.deviceBBTour in self.__userAgent \
                or UAgentInfo.deviceBBCurve in self.__userAgent
 
-    def detectBlackBerryLow(self):
+    def detect_blackberry_low(self):
         """Return detection of a Blackberry device with a poorer browser
 
         Detects if the current browser is a BlackBerry device AND
         has an older, less capable browser.
         Examples: Pearl, 8800, Curve1
         """
-        if not self.detectBlackBerry():
+        if not self.detect_blackberry():
             return False
 
         # Assume that if it's not in the High tier, then it's Low
-        return self.detectBlackBerryHigh() \
-               or self.detectBlackBerryWebKit()
+        return self.detect_blackberry_high() \
+               or self.detect_blackberry_webkit()
 
-
-    def detectS60OssBrowser(self):
+    def detect_s60_oss_browser(self):
         """Return detection of Symbian S60 Browser
 
         Detects if the current browser is the Symbian S60 Open Source Browser.
         """
         # First, test for WebKit, then make sure it's either Symbian or S60.
-        return self.detectWebkit() \
+        return self.detect_webkit() \
                and (UAgentInfo.deviceSymbian in self.__userAgent \
                     or UAgentInfo.deviceS60 in self.__userAgent)
 
-    def detectSymbianOS(self):
+    def detect_symbian_os(self):
         """Return detection of SymbianOS
 
         Detects if the current device is any Symbian OS-based device,
@@ -510,8 +501,7 @@ class UAgentInfo(object):
                or UAgentInfo.deviceS80 in self.__userAgent \
                or UAgentInfo.deviceS90 in self.__userAgent
 
-
-    def detectPalmOS(self):
+    def detect_palm_os(self):
         """Return detection of a PalmOS device
 
         Detects if the current browser is on a PalmOS device.
@@ -520,11 +510,11 @@ class UAgentInfo(object):
         if UAgentInfo.devicePalm in self.__userAgent \
                 or UAgentInfo.engineBlazer in self.__userAgent \
                 or UAgentInfo.engineXiino in self.__userAgent:
-                #  Make sure it's not WebOS
-            return not self.detectPalmWebOS()
+            #  Make sure it's not WebOS
+            return not self.detect_palm_web_os()
         return False
 
-    def detectPalmWebOS(self):
+    def detect_palm_web_os(self):
         """Return detection of a Palm WebOS device
 
         Detects if the current browser is on a Palm device
@@ -532,7 +522,7 @@ class UAgentInfo(object):
         """
         return UAgentInfo.deviceWebOS in self.__userAgent
 
-    def detectWebOSTablet(self):
+    def detect_web_os_tablet(self):
         """Return detection of an HP WebOS tablet
 
         Detects if the current browser is on an HP tablet running WebOS.
@@ -540,8 +530,7 @@ class UAgentInfo(object):
         return UAgentInfo.deviceWebOShp in self.__userAgent \
                and UAgentInfo.deviceTablet in self.__userAgent
 
-
-    def detectOperaMobile(self):
+    def detect_opera_mobile(self):
         """Return detection of an Opera browser for a mobile device
 
         Detects Opera Mobile or Opera Mini.
@@ -550,7 +539,7 @@ class UAgentInfo(object):
                and (UAgentInfo.mini in self.__userAgent \
                     or UAgentInfo.mobi in self.__userAgent)
 
-    def detectOperaAndroidPhone(self):
+    def detect_opera_android_phone(self):
         """Return detection of an Opera browser on an Android phone
 
         Detects Opera Mobile on an Android phone.
@@ -559,7 +548,7 @@ class UAgentInfo(object):
                and UAgentInfo.deviceAndroid in self.__userAgent \
                and UAgentInfo.mobi in self.__userAgent
 
-    def detectOperaAndroidTablet(self):
+    def detect_opera_android_tablet(self):
         """Return detection of an Opera browser on an Android tablet
 
         Detects Opera Mobile on an Android tablet.
@@ -568,17 +557,16 @@ class UAgentInfo(object):
                and UAgentInfo.deviceAndroid in self.__userAgent \
                and UAgentInfo.deviceTablet in self.__userAgent
 
-
-    def detectKindle(self):
+    def detect_kindle(self):
         """Return detection of a Kindle
 
         Detects if the current device is an Amazon Kindle (eInk devices only).
         Note: For the Kindle Fire, use the normal Android methods.
         """
         return UAgentInfo.deviceKindle in self.__userAgent \
-               and not self.detectAndroid()
+               and not self.detect_android()
 
-    def detectAmazonSilk(self):
+    def detect_amazon_silk(self):
         """Return detection of an Amazon Kindle Fire in Silk mode.
 
         Detects if the current Amazon device is using the Silk Browser.
@@ -586,8 +574,7 @@ class UAgentInfo(object):
         """
         return UAgentInfo.engineSilk in self.__userAgent
 
-
-    def detectGarminNuvifone(self):
+    def detect_garmin_nuvi_fone(self):
         """Return detection of a Garmin Nuvifone
 
         Detects if the current browser is a
@@ -595,29 +582,28 @@ class UAgentInfo(object):
         """
         return UAgentInfo.deviceNuvifone in self.__userAgent
 
-    def detectBada(self):
+    def detect_bada(self):
         """Return detection of a Bada OS smartphone
 
         Detects if the current browser is on a Bada smartphone from Samsung
         """
         return UAgentInfo.deviceBada in self.__userAgent
 
-    def detectTizen(self):
+    def detect_tizen(self):
         """Return detection of a Tizen OS smartphone
 
         Detects if the current browser is on a Tizen OS smartphone
         """
         return UAgentInfo.deviceTizen in self.__userAgent
 
-    def detectMeego(self):
+    def detect_meego(self):
         """Return detection of a Meego OS smartphone
 
         Detects if the current browser is on a Meego OS smartphone
         """
         return UAgentInfo.deviceMeego in self.__userAgent
 
-
-    def detectDangerHiptop(self):
+    def detect_danger_hiptop(self):
         """Return detection of a Danger Hiptop
 
         Detects the Danger Hiptop device.
@@ -625,7 +611,7 @@ class UAgentInfo(object):
         return UAgentInfo.deviceDanger in self.__userAgent \
                or UAgentInfo.deviceHiptop in self.__userAgent
 
-    def detectSonyMylo(self):
+    def detect_sony_mylo(self):
         """Return detection of a Sony Mylo device
 
         Detects if the current browser is a Sony Mylo device.
@@ -634,7 +620,7 @@ class UAgentInfo(object):
                and (UAgentInfo.qtembedded in self.__userAgent
                     or UAgentInfo.mylocom2 in self.__userAgent)
 
-    def detectMaemoTablet(self):
+    def detect_maemo_tablet(self):
         """Return detection of a Maemo OS tablet
 
         Detects if the current device is on one of the Maemo-based Nokia Internet Tablets.
@@ -644,10 +630,10 @@ class UAgentInfo(object):
 
         return UAgentInfo.linux in self.__userAgent \
                and UAgentInfo.deviceTablet in self.__userAgent \
-               and not self.detectWebOSTablet() \
-               and not self.detectAndroid()
+               and not self.detect_web_os_tablet() \
+               and not self.detect_android()
 
-    def detectArchos(self):
+    def detect_archos(self):
         """Return detection of an Archos media player
 
         Detects if the current device is an Archos media player/Internet tablet.
@@ -655,23 +641,23 @@ class UAgentInfo(object):
         return UAgentInfo.deviceArchos in self.__userAgent
 
 
-    def detectGameConsole(self):
+    def detect_game_console(self):
         """Return detection of any Game Console
 
         Detects if the current device is an Internet-capable game console.
         """
-        return self.detectSonyPlaystation() \
-               or self.detectNintendo() \
-               or self.detectXbox()
+        return self.detect_sony_playstation() \
+               or self.detect_nintendo() \
+               or self.detect_xbox()
 
-    def detectSonyPlaystation(self):
+    def detect_sony_playstation(self):
         """Return detection of Sony Playstation.
 
         Detects if the current device is a Sony Playstation.
         """
         return UAgentInfo.devicePlaystation in self.__userAgent
 
-    def detectGamingHandheld(self):
+    def detect_gaming_handheld(self):
         """Return detection of a handheld gaming device.
 
         Detects if the current device is a handheld gaming device with
@@ -681,7 +667,7 @@ class UAgentInfo(object):
         return UAgentInfo.devicePlaystation in self.__userAgent \
                and UAgentInfo.devicePlaystationVita in self.__userAgent
 
-    def detectNintendo(self):
+    def detect_nintendo(self):
         """Return detection of Nintendo
 
         Detects if the current device is a Nintendo game device.
@@ -690,22 +676,21 @@ class UAgentInfo(object):
                or UAgentInfo.deviceWii in self.__userAgent \
                or UAgentInfo.deviceNintendoDs in self.__userAgent
 
-    def detectXbox(self):
+    def detect_xbox(self):
         """Return detection of Xbox
 
         Detects if the current device is a Microsoft Xbox.
         """
         return UAgentInfo.deviceXbox in self.__userAgent
 
-
-    def detectBrewDevice(self):
+    def detect_brew_device(self):
         """Return detection of a Brew device
 
         Detects whether the device is a Brew-powered device.
         """
         return UAgentInfo.deviceBrew in self.__userAgent
 
-    def detectWapWml(self):
+    def detect_wap_wml(self):
         """Return detection of a WAP- or WML-capable device
 
         Detects whether the device supports WAP or WML.
@@ -713,7 +698,7 @@ class UAgentInfo(object):
         return UAgentInfo.vndwap in self.__httpAccept \
                or UAgentInfo.wml in self.__httpAccept
 
-    def detectMidpCapable(self):
+    def detect_midp_capable(self):
         """Return detection of a MIDP mobile Java-capable device
 
         Detects if the current device supports MIDP, a mobile Java technology.
@@ -721,26 +706,24 @@ class UAgentInfo(object):
         return UAgentInfo.deviceMidp in self.__userAgent \
                or UAgentInfo.deviceMidp in self.__httpAccept
 
-
-    #*****************************
+    # *****************************
     #  Device Classes
-    #*****************************
+    # *****************************
 
-    def detectSmartphone(self):
+    def detect_smartphone(self):
         """Return detection of a general smartphone device
 
         Check to see whether the device is any device
         in the 'smartphone' category.
         """
-        return self.detectTierIphone() \
-               or self.detectS60OssBrowser() \
-               or self.detectSymbianOS() \
-               or self.detectWindowsMobile() \
-               or self.detectBlackBerry() \
-               or self.detectPalmWebOS()
+        return self.detect_tier_iphone() \
+               or self.detect_s60_oss_browser() \
+               or self.detect_symbian_os() \
+               or self.detect_windows_mobile() \
+               or self.detect_blackberry() \
+               or self.detect_palm_web_os()
 
-
-    def detectMobileQuick(self):
+    def detect_mobile_quick(self):
         """Return detection of any mobile device using the quicker method
 
         Detects if the current device is a mobile device.
@@ -752,15 +735,15 @@ class UAgentInfo(object):
             return False
 
         # Most mobile browsing is done on smartphones
-        if self.detectSmartphone():
+        if self.detect_smartphone():
             return True
 
         if UAgentInfo.mobile in self.__userAgent:
             return True
 
-        if self.detectWapWml() \
-                or self.detectBrewDevice() \
-                or self.detectOperaMobile():
+        if self.detect_wap_wml() \
+                or self.detect_brew_device() \
+                or self.detect_opera_mobile():
             return True
 
         if UAgentInfo.engineObigo in self.__userAgent \
@@ -769,10 +752,10 @@ class UAgentInfo(object):
                 or UAgentInfo.engineOpenWeb in self.__userAgent:
             return True
 
-        if self.detectDangerHiptop() \
-                or self.detectMidpCapable() \
-                or self.detectMaemoTablet() \
-                or self.detectArchos():
+        if self.detect_danger_hiptop() \
+                or self.detect_midp_capable() \
+                or self.detect_maemo_tablet() \
+                or self.detect_archos():
             return True
 
         if UAgentInfo.devicePda in self.__userAgent \
@@ -780,14 +763,13 @@ class UAgentInfo(object):
             return True
 
             # We also look for Kindle devices
-        if self.detectKindle() \
-                or self.detectAmazonSilk():
+        if self.detect_kindle() \
+                or self.detect_amazon_silk():
             return True
 
         return False
 
-
-    def detectMobileLong(self):
+    def detect_mobile_long(self):
         """Return detection of any mobile device using the more thorough method
 
         The longer and more thorough way to detect for a mobile device.
@@ -798,9 +780,9 @@ class UAgentInfo(object):
         but no promises on thoroughness!
         """
 
-        if self.detectMobileQuick() \
-                or self.detectGameConsole() \
-                or self.detectSonyMylo():
+        if self.detect_mobile_quick() \
+                or self.detect_game_console() \
+                or self.detect_sony_mylo():
             return True
 
         # detect older phones from certain manufacturers and operators.
@@ -812,12 +794,11 @@ class UAgentInfo(object):
                or UAgentInfo.svcKddi in self.__userAgent \
                or UAgentInfo.svcVodafone in self.__userAgent
 
-
-    #*****************************
+    # *****************************
     #  For Mobile Web Site Design
-    #*****************************
+    # *****************************
 
-    def detectTierTablet(self):
+    def detect_tier_tablet(self):
         """Return detection of any device in the Tablet Tier
 
         The quick way to detect for a tier of devices.
@@ -825,12 +806,12 @@ class UAgentInfo(object):
         HTML 5 capable, larger screen tablets.
         Includes iPad, Android (e.g., Xoom), BB Playbook, WebOS, etc.
         """
-        return self.detectIpad() \
-               or self.detectAndroidTablet() \
-               or self.detectBlackBerryTablet() \
-               or self.detectWebOSTablet()
+        return self.detect_ipad() \
+               or self.detect_android_tablet() \
+               or self.detect_blackberry_tablet() \
+               or self.detect_web_os_tablet()
 
-    def detectTierIphone(self):
+    def detect_tier_iphone(self):
         """Return detection of any device using any OS with an iPhone-class web browser
 
         The quick way to detect for a tier of devices.
@@ -839,17 +820,17 @@ class UAgentInfo(object):
         Includes iPhone, iPod Touch, Android,
         Windows Phone 7 and 8, BB10, WebOS, Playstation Vita, etc.
         """
-        return self.detectIphoneOrIpod() \
-               or self.detectAndroidPhone() \
-               or self.detectWindowsPhone() \
-               or self.detectBlackBerry10Phone() \
-               or self.detectBlackBerryWebKit() and self.detectBlackBerryTouch() \
-               or self.detectPalmWebOS() \
-               or self.detectBada() \
-               or self.detectTizen() \
-               or self.detectGamingHandheld()
+        return self.detect_iphone_or_ipod() \
+               or self.detect_android_phone() \
+               or self.detect_windows_phone() \
+               or self.detect_blackberry_10_phone() \
+               or self.detect_blackberry_webkit() and self.detect_blackberry_touch() \
+               or self.detect_palm_web_os() \
+               or self.detect_bada() \
+               or self.detect_tizen() \
+               or self.detect_gaming_handheld()
 
-    def detectTierRichCss(self):
+    def detect_tier_rich_css(self):
         """Return detection of any device in the 'Rich CSS' Tier
 
         The quick way to detect for a tier of devices.
@@ -860,22 +841,22 @@ class UAgentInfo(object):
         """
         # The following devices are explicitly ok.
         # Note: 'High' BlackBerry devices ONLY
-        if not self.detectMobileQuick():
+        if not self.detect_mobile_quick():
             return False
             # Exclude iPhone Tier and e-Ink Kindle devices
-        if self.detectTierIphone() \
-                or self.detectKindle():
+        if self.detect_tier_iphone() \
+                or self.detect_kindle():
             return False
             # The following devices are explicitly ok.
             # Note: 'High' BlackBerry devices ONLY
             # Older Windows 'Mobile' isn't good enough for iPhone Tier.
-        return self.detectWebkit() \
-               or self.detectS60OssBrowser() \
-               or self.detectBlackBerryHigh() \
-               or self.detectWindowsMobile() \
+        return self.detect_webkit() \
+               or self.detect_s60_oss_browser() \
+               or self.detect_blackberry_high() \
+               or self.detect_windows_mobile() \
                or UAgentInfo.engineTelecaQ in self.__userAgent
 
-    def detectTierOtherPhones(self):
+    def detect_tier_other_phones(self):
         """Return detection of a mobile device in the less capable tier
 
         The quick way to detect for a tier of devices.
@@ -883,6 +864,6 @@ class UAgentInfo(object):
         but excludes the iPhone and RichCSS Tier devices.
         """
         # Exclude devices in the other 2 categories
-        return self.detectMobileLong() \
-               and not self.detectTierIphone() \
-               and not self.detectTierRichCss()
+        return self.detect_mobile_long() \
+               and not self.detect_tier_iphone() \
+               and not self.detect_tier_rich_css()
