@@ -22,6 +22,13 @@
 # - Added detection support for the Obigo mobile browser to DetectMobileQuick().
 # - Corrected a bug in the DetectNintendo() method.
 #
+# Updates by Biwin (github.com/biwin)
+# Modifications on 23 - March - 2015
+# - Fixes comment idents
+# - Changes method names to lower_case
+# - Fixes code continuation warnings
+#
+#
 # Port to Python: Alexey Evseev (alexevseev@gmail.com)
 # Made for www.irk.fm website
 # Maintained by irk.fm team. Contact Jury Gerasimov (jury@softshape.com)
